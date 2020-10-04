@@ -1,0 +1,22 @@
+#include<bitset>		//used to represent bits of data
+
+eg.,
+
+std::bitset<8> x(4);
+std::cout<<x;			//output is 00000100
+
+std::bitset<8> x(13);
+std::cout<<x;			//output is 00001101
+
+
+Also, the variable can be used to access single bit also.
+eg.,
+
+std::bitset<8> x(4);
+std::cout<<x<<endl;			//output is 00000100
+std::cout<<x[2];			//output is 1
+
+std::bitset<8> x(13);
+std::cout<<x<<endl;			//output is 00001101
+std::cout<<x[3]<<' '<<x[2]<<' '<<x[1]<<' '<<x[0]
+					//output is 1 1 0 1

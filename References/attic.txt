@@ -1,0 +1,23 @@
+DFS:
+	Topological Sorting
+	Forward Edges, Back Edges, Cross Edges
+	Unique Path Graph (using forward/cross and backward edge)
+
+
+************************************************************
+Dynamic Programming:
+	Matrix Chain Multiplication (minimizing number of element multiplication)
+	Longest Increasing Subsequence (LIS)
+	* Floyd Warshell Algorithm (All Pair shortest path)
+
+
+************************************************************
+Greedy:
+	* Kruskal's MST
+	* Prim's MST
+	* Dijsktra's shortest distance to each vertex from source
+
+
+************************************************************
+Data Structures:
+	Heap (Min and Max)
