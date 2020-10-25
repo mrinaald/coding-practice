@@ -24,13 +24,13 @@ int main(){
   // build tree
   buildTree(a);
 
-  // print the sum in range [1,2] 1-index based
+  // print the sum in range [1,2] (0-index based)
   cout << query(1, 3)<<endl;
 
-  // modify element at 2nd index
+  // modify element at 2nd index (0-index based)
   updateTreeNode(2, 1);
 
-  // print the sum in range [1,2] 1-index based
+  // print the sum in range [1,2] (0-index based)
   cout << query(1, 3)<<endl;
 
   return 0;
